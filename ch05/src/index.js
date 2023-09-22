@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Test6 from './Test6';
-import 'bootstrap/dist/css/bootstrap.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-//bootstrap 설치 : 
-//yarn 으로 설치 : D:\kkt\react\ch03>yarn add react-bootstrap bootstrap
-//npm 으로 설치 : D:\kkt\react\ch03>npm install react-bootstrap bootstrap
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Test6 />
+    <App />
   </React.StrictMode>
 );
 
